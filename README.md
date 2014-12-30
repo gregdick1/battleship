@@ -4,7 +4,7 @@ Let's Play Battleship!
 <p><strong>To play:</strong></p>
 <ol>
 <li>Clone this repo.</li>
-<li>Edit the MyStratgey class (or create a new one) to be FirstLastStrategy (mine would be GregDickStrategy).</li>
+<li>Edit the MyStrategy class (or create a new one) to be FirstLastStrategy (mine would be GregDickStrategy).</li>
 <li>Determine the placement of your pieces in your strategy class.</li>
 <li>Create your algorithm in the GetNextMove method of your strategy. You have access to a lot of information in the context, as well as some utility in the Util class.</li>
 <li>Email me your file. Do not create a pull request for it, or other people will see your strategy.</li>
