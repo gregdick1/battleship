@@ -10,6 +10,9 @@ namespace Battleship
     {
         public override Coordinate GetNextMove(NextMoveContext context)
         {
+            /*
+             * Sample strategy of simply iterating through all spaces on the board.
+             */
             if (context.LastMove == null)
             {
                 return new Coordinate("A0");
